@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    background-image: url(Images/GIS.webp);
+}
+.navbar{
+    height: 50px;
+    padding: 20px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+
+    height: 700px;
+}
+
+.wrapper .topi{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 38pt;
+    font-weight: lighter;
+}
+
+.log{
+    height: 80px;
+    width: 230px;
+    background-image: url(Images/image.png);
+    background-position: center;
+    background-size:cover;
+    margin: 20px;
+}
+
+.topic{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 65pt;
+}
+
+.box{
+    float: eft;
+    background-color: white;
+    width: 220px;
+    height: 220px;
+   
+    
+
+}
+
+.bx{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#box1{
+    margin: 10px;
+}
+
+#box2{
+    margin: 10px;
+}
+
+#box3{
+    margin: 10px;
+}
+
+
+.img{
+    width: 200px;
+    height: 100px ;
+    background-color: blue;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#img1{
+    background-image: url(Images/empowering-students-with-gis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url(Images/OIP.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3{
+    background-image: url(Images/World-Map-on-Grass-695px.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sp{
+    text-align: center;
+    font-weight: 100;
+}
+
+#w3{
+    margin-top: 20px;
+}
+
+.dyk{
+    background-image: url(Images/mark.jpg);
+    background-color: rgb(107, 189, 31);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+     
+    height: 900px;
+}
+
+.dyk .h1{
+    margin: 20px;
+    background-color: rgb(0, 255, 255);
+    display: inline;
+    
+}
+
+.t{
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.dyk p{
+    font-size: 17pt;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.bar{
+    margin: 20px;
+    float: left;
+    width: 350px;
+    height: 650px;
+    background-color: rgb(86, 193, 219);
+    
+}
+
+.im{
+    width: 340px;
+    height:320px;
+    border: 1px solid;
+}
+
+.bs{
+    display: flex;
+    justify-content: center;
+}
+
+#bar1{
+    margin: 100px;
+}
+
+#q1{
+    background-image: url(Images/gis\ d.png);
+    background-position: center;
+    background-size: cover;
+    background-color:transparent;
+}
+
+#q2{
+    background-image: url(Images/go\ tech_edited.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#q3{
+    background-image: url(Images/Hr9RIWR.webp);
+    background-position: center;
+    background-size: cover;
+}
+.footer{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 4, 29);
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.footer h2{
+    font-size: 14pt;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.logo{
+    width: 190px;
+    height: 60px;
+    margin: auto;
+    background-image: url(Images/image.png);
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px
+}
+
+.ema{
+
+    display: inline-block;
+}
+
+.footer h1{
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+input{
+    border: 2px solid;
+    border-radius: 30px;
+    height: 40px;
+    width: 400px;
+}
+
+button{
+    border: 2px solid;
+    border-radius: 30px;
+    height: 45px;
+    width: 100px; 
+    background-color: blue;
+    color: white;
+}

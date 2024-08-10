@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 50px;
+    padding: 20px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.w2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    
+}
+.cint{
+    display: flex;
+    overflow:hidden;
+    margin-left: 200px;
+}
+
+.img{ 
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    background-image: url(Images/camp.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 12px solid white;
+    
+}
+
+.content{
+    width: 510px;
+    height: 525px;
+    background-color: rgb(218, 190, 32);
+    padding-left: 15px;
+}
+
+.content p{
+    font-size: 15pt;
+}
+
+body{
+    background-color: rgb(40, 62, 109);
+}
+

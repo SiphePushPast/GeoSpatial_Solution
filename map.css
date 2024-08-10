@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+
+.container{
+    padding-top: 20px;
+    height: 88.3vh;
+    background-image: url(Images/globe.jfif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.g{
+    margin-left: 20px;
+    background-color: rgb(226, 158, 175);
+    width: 305px;
+    height: 130px;
+    padding-left:9px;
+    padding-top: 15px;
+    border: 5px solid;
+}
+
+button{
+    border: 2px solid;
+    margin: 20px;
+    width: 180px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: rgb(102, 84, 167);
+    font-size: 17pt;
+}
